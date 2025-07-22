@@ -1,7 +1,7 @@
 package Methods_in_java;
 
 public class video31part2 {
-int man (int x, int y){
+public static int man (int x, int y){
      int z;
     if (x>y){
         z = x+y;
