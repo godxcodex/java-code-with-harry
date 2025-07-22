@@ -32,9 +32,12 @@ class Emp1{
 public class video42_construc {
     public static void main(String[] args) {
         
-       // Emp1 emp = new Emp1();
-       // System.out.println(emp.getname());
-       // Emp1 sidd = new Emp1("sidd",45);
+       Emp1 emp = new Emp1();
+        System.out.println(emp.getname());
+        Emp1 sidd = new Emp1("sidd",45);
+        System.out.println(sidd.getname());
+        System.out.println(sidd.getage());
+
         Emp1 emp1 = new Emp1("siddharth");
         System.out.println(emp1.getname());
         System.out.println(emp1.getage());

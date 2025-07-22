@@ -18,6 +18,7 @@ public class video38part2 {
         shivam.studentId = 182;
         System.out.println(shivam.studentName);
         System.out.println(shivam.studentId);
+        shivam.getinfo();
        // shivam.getinfo();
         
     }
