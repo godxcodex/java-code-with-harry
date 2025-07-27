@@ -10,8 +10,9 @@ package oopm_in_java;
     
 }
  class Oshi extends Sidd{
-    @Override // when using function over riding // means name of method is same but at different classes and these classes are in realtionship
-   public void m1(){
+    @Override // when using function overriding 
+            // means name of method is same but at different classes and these classes are in realtionship
+    public void m1(){
     System.out.println("hi my name is he he ");
    }
 }
@@ -26,3 +27,4 @@ public class overriding {
     }
     
 }
+/* note : only use when the arguments are same and function name  are same but are use in 2 different classes  */
