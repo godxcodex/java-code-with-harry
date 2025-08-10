@@ -21,6 +21,7 @@ public class prefixsum {
           int m = sc.nextInt();
           System.out.println(arr[m] - arr[l-1]);
         }
+        sc.close();
         }
         
         
