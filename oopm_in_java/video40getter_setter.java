@@ -13,6 +13,9 @@ class Car {
     public String getName(){
        return name ;
     }
+    public void SetNum(int numberPlate){
+         this.numberPlate = numberPlate;
+    }
     public int getNum(){
         return numberPlate;
     }
@@ -26,6 +29,10 @@ public class video40getter_setter {
         ca.setname("Audi");
         System.out.println(ca.getName());
         System.out.println(ca.getNum());
+        Car c = new Car();
+        System.out.println(c.getName());
+        c.SetNum(4569);
+        System.out.println(c.getNum());
     }
     
 }
