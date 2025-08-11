@@ -3,7 +3,7 @@ package oopm_in_java;
 class Car {
     private int numberPlate;
     private String name;
-    public Car(){
+     Car(){
         name ="bmw";
         numberPlate =24367;
     }
