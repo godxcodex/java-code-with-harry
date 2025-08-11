@@ -2,7 +2,7 @@ package oopm_in_java.this_keywordandsuper;
 class Parent1{
     int salery;
 Parent1(){
-    this(67);
+    this(67);// contructor chaining
 }
 Parent1(int salery){
     this.salery = salery;
